@@ -6,5 +6,5 @@ sudo docker run -d \
 -v /etc/onprem.d/:/etc/onprem.d/ \
 -v /etc:/mount/etc:ro \
 -v /usr/share/zoneinfo:/usr/share/zoneinfo:ro \
-infobloxcto/onprem.agent:<VERSION> \
+infobloxcto/onprem.agent: \
 --jointoken hH6GUZFktxb4B93hfpRhzWERZ9LHZHn-mTGCco9c1-sY
